@@ -34,3 +34,14 @@ This configuration is NOT finished yet. If you want to use the config file, don'
 
 # Workarounds?
 - I'm currently using TP-Link TL-WN725N for connecting to the internet
+
+# Kext Included in the Kexts folder
+- AppleALC
+- Lilu
+- SMCProcessor
+- SMCSuperIO
+- USBInjectAll
+- VirtualSMC
+- VoodooPS2Controller
+- VoodooSMBus
+- WhateverGreen
