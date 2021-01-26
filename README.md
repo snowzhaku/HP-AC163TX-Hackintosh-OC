@@ -17,6 +17,7 @@ This configuration is NOT finished yet. If you want to use the config file, don'
 | Display | 15" 1280x720 and LG 22MK600 1920x1080 |
 | Sound | ALC282 |
 | Wifi | Realtek RTL8723BE |
+| Ethernet | Realtek RTL8139/810x |
 | Touchpad | Synaptics SMBus / PS2 |
 
 # What's Working?
