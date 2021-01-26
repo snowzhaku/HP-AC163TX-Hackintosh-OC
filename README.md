@@ -7,6 +7,8 @@ This configuration is NOT finished yet. If you want to use the config file, don'
 | | Specification |
 | ------- | ------------- |
 | Model | HP 15-AC163TX |
+| Bootloader | OpenCore |
+| Bootloader Version | 0.6.5 |
 | CPU | Intel Core i7-5500u |
 | Graphics | Intel HD Graphics 5500 |
 | Memory | 8 GB DDR3-1600 MHz |
