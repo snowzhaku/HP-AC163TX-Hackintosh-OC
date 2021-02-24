@@ -1,20 +1,20 @@
 # HP-AC163TX-Hackintosh-OC
-My EFI Backup for OpenCore 0.6.5 running macOS Big Sur 11.0.1
+My EFI Backup for OpenCore 0.6.6 running macOS Big Sur 11.2
 
 # Note
-This configuration is NOT finished yet. If you want to use the config file, don't forget to generate your own DeviceProperties.
+If you want to use the config file, don't forget to generate your own DeviceProperties.
 
 | | Specification |
 | ------- | ------------- |
 | Model | HP 15-AC163TX |
 | Bootloader | OpenCore |
-| Bootloader Version | 0.6.5 |
+| Bootloader Version | 0.6.6 |
 | CPU | Intel Core i7-5500u |
 | Graphics | Intel HD Graphics 5500 |
 | Memory | 8 GB DDR3-1600 MHz |
-| OS | Windows 10 and macOS Big Sur 11.0.1 |
+| OS | Windows 10 20H2 and macOS Big Sur 11.2 |
 | Storage | 120 GB SSD for Windows 10, 150 GB HDD for MacOS |
-| Display | 15" 1280x720 and LG 22MK600 1920x1080 |
+| Display | 15" 1366x768 and LG 22MK600 1920x1080 |
 | Sound | ALC282 |
 | Wifi | Realtek RTL8723BE |
 | Ethernet | Realtek RTL8139/810x |
@@ -22,27 +22,29 @@ This configuration is NOT finished yet. If you want to use the config file, don'
 
 # What's Working?
 - QE/CI on Intel HD Graphics 5500
-- USB 2.0 Works, haven't test the USB 3.0 Port yet.
+- USB Ports
 - HDMI Output
-- Shutdown
-- Brightness control via System Preferences
+- Shutdown, Restart
+- Brightness control
+- Ethernet
+- Touchpad
+- Battery Percentage
 
 # What's not working?
 - Wifi (Realtek RTL8723BE is not supported)
-- Ethernet (Haven't found the right kext for the Ethernet Port)
-- Audio not yet configured
-- USB 3.0 port may only reads USB 3.0 devices
+- Audio ALC282 (Not detected at DCPIManager)
 
 # Workarounds?
-- I'm currently using TP-Link TL-WN725N for connecting to the internet
+- I'm using my USB Mixer as my Sound Output
 
 # Kext Included in the Kexts folder
+- ACPIBatteryManager
 - AppleALC
 - Lilu
+- RealtekRTL8100
 - SMCProcessor
 - SMCSuperIO
 - USBInjectAll
 - VirtualSMC
 - VoodooPS2Controller
-- VoodooSMBus
 - WhateverGreen
